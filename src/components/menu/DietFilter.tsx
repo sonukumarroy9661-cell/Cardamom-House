@@ -1,4 +1,3 @@
-// STRETCH: dietary filter (Everything / Vegetarian / Gluten-free). Selected = amber #B45309.
 import { cn } from "@/lib/cn";
 import type { DietFilterValue } from "@/lib/menu";
 

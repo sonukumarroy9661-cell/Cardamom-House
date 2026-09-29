@@ -1,4 +1,3 @@
-// REQ 1: restaurant name + tagline + open/closed indicator (Lisbon time). Stretch: entrance animation. Colours: forest #1F3B2C bg, amber #B45309 pod + closed dot.
 import { Container } from "@/components/ui/Container";
 import { cn } from "@/lib/cn";
 import { describeNextOpening, type OpenStatus } from "@/lib/hours";

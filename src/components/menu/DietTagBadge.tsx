@@ -1,4 +1,3 @@
-// REQ 5: V = vegetarian, GF = gluten-free, spicy. Subtle outline pill; 'spicy' uses amber #B45309 outline. sr-only full label for screen readers.
 import { Pill } from "@/components/ui/Pill";
 import type { DietTag } from "@/types/menu";
 

@@ -1,4 +1,3 @@
-// REQ 6: weekly hours. Today's row = amber tint #F4DFC6 + bold + 'Today' pill (#B45309). Closed days = muted italic.
 import { Container } from "@/components/ui/Container";
 import { Pill } from "@/components/ui/Pill";
 import { cn } from "@/lib/cn";

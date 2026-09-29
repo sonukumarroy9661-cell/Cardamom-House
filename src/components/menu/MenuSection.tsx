@@ -1,4 +1,3 @@
-// REQ 4: section with heading, optional description and item list. Amber accent line #B45309 under heading.
 import { MenuItemRow } from "@/components/menu/MenuItemRow";
 import type { Category } from "@/types/menu";
 

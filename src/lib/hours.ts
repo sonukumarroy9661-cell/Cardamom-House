@@ -1,7 +1,5 @@
-// Pure open/closed logic. Timezone: Europe/Lisbon. Returns next opening time when closed.
 import { WEEKDAYS, type Hours, type Weekday } from "@/types/menu";
 
-/** A moment in the week, expressed the way opening hours are: day + minutes since midnight. */
 export interface Instant {
   day: Weekday;
   minutes: number;

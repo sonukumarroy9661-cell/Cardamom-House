@@ -1,4 +1,3 @@
-// REQ 5: name, description, price in EUR, tags. STATE 'special-sold-out': dimmed text + 'Sold out' pill.
 import { DietTagBadge } from "@/components/menu/DietTagBadge";
 import { Pill } from "@/components/ui/Pill";
 import { cn } from "@/lib/cn";

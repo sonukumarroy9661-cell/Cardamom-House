@@ -1,4 +1,3 @@
-// REQ 7: address (Google Maps link), phone (tel:), Instagram handle. Forest #1F3B2C background, amber #B45309 link underline.
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { SCENARIOS, type Scenario } from "@/lib/scenario";

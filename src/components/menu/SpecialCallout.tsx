@@ -1,4 +1,3 @@
-// REQ 2: today's special callout in brand amber #B45309 (border + button, tint #F4DFC6). STATE 'special-sold-out': callout updates to a neutral 'sold out' message.
 import { Container } from "@/components/ui/Container";
 import { formatEUR } from "@/lib/format";
 import type { MenuItem } from "@/types/menu";

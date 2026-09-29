@@ -1,4 +1,3 @@
-// Client island: sticky nav + dietary filter (stretch) + all menu sections.
 "use client";
 
 import { useMemo, useState } from "react";
@@ -15,7 +14,6 @@ interface MenuBrowserProps {
   soldOutItemIds: readonly string[];
 }
 
-/** Client island: owns the diet filter and the sticky nav. Everything else stays server-rendered. */
 export function MenuBrowser({ categories, specialItemId, soldOutItemIds }: MenuBrowserProps) {
   const [filter, setFilter] = useState<DietFilterValue>("all");
   const visible = useMemo(() => filterCategories(categories, filter), [categories, filter]);

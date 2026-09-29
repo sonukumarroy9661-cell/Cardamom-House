@@ -1,4 +1,3 @@
-// REQ 3: sticky category nav, active section highlighted on scroll. Active colour: amber #B45309. REQ 8: horizontally scrollable on mobile, 48px tap targets.
 "use client";
 
 import { useEffect, useRef } from "react";

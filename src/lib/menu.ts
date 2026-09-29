@@ -10,7 +10,6 @@ export function findItem(categories: readonly Category[], id: string): MenuItem 
   return undefined;
 }
 
-/** Returns categories narrowed to matching items; empty categories are dropped. */
 export function filterCategories(
   categories: readonly Category[],
   filter: DietFilterValue,

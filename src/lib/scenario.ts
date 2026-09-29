@@ -1,4 +1,3 @@
-// THREE STATES: open (Tuesday 11:30), closed (Monday 11:30), special-sold-out (Tuesday 11:30, special unavailable). Bonus: live = real Lisbon time.
 import { getLisbonNow, type Instant } from "@/lib/hours";
 
 export const SCENARIOS = ["open", "closed", "special-sold-out", "live"] as const;

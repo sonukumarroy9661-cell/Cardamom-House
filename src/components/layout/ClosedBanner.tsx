@@ -1,4 +1,3 @@
-// STATE 'closed': friendly 'We're closed today' banner with next opening time. Colour: brand amber #B45309 background, white text.
 import { Container } from "@/components/ui/Container";
 import { describeNextOpening, type NextOpening } from "@/lib/hours";
 
